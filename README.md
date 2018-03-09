@@ -54,3 +54,13 @@ novoTel = input('Digite o telefone: ')
 listaTel = agenda['Lucas']
 listaTel.append(novoTel)
 print(agenda)
+
+
+
+
+#Atividade em sala... O usuário digita um texto e conta as vogais.
+def conta_vogal():
+    frase = input('Digite a frase: ')
+    return {vogal:frase.count(vogal) for vogal in 'aeiou'}
+
+print(conta_vogal())
