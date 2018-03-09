@@ -46,3 +46,11 @@ if existe:
     print(agenda['Camila'])
 else:
     print('None')'''
+
+
+# inserindo mais um telefone a um contato já existente
+novoTel = input('Digite o telefone: ')
+
+listaTel = agenda['Lucas']
+listaTel.append(novoTel)
+print(agenda)
