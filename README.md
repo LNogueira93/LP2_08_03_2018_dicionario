@@ -21,3 +21,28 @@ print(valores)
 
 chaves = agenda.keys()
 print(chaves)
+
+items = agenda.items()
+print(items)
+
+for chave, valor in agenda.items():
+    print('Nome: ', chave)
+    print('Telefone: ', valor)
+
+tel = agenda.get('Camila','Chave não existe\n')
+print(tel)
+
+
+#removendo
+'''remover = input('Digite o nome para remover: ')
+del agenda[remover]
+print(agenda)
+agenda.clear()
+print(agenda)
+'''
+# agenda.get resumo as linhas a seguir
+'''existe = 'Camila' in agenda
+if existe:
+    print(agenda['Camila'])
+else:
+    print('None')'''
